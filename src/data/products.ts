@@ -1,0 +1,85 @@
+import { Product } from "@/types/Product";
+import headphonesImg from "@/assets/headphones.jpg";
+import smartwatchImg from "@/assets/smartwatch.jpg";
+import laptopImg from "@/assets/laptop.jpg";
+import smartphoneImg from "@/assets/smartphone.jpg";
+import earbudsImg from "@/assets/earbuds.jpg";
+import keyboardImg from "@/assets/keyboard.jpg";
+
+export const products: Product[] = [
+  {
+    id: "1",
+    name: "Premium Wireless Headphones",
+    price: 299.99,
+    originalPrice: 399.99,
+    image: headphonesImg,
+    category: "Audio",
+    description: "Experience superior sound quality with our premium wireless headphones featuring active noise cancellation and 30-hour battery life.",
+    features: ["Active Noise Cancellation", "30-hour Battery", "Premium Drivers", "Wireless Charging"],
+    rating: 4.8,
+    reviews: 1247,
+    inStock: true,
+  },
+  {
+    id: "2",
+    name: "Smart Fitness Watch",
+    price: 399.99,
+    image: smartwatchImg,
+    category: "Wearables",
+    description: "Track your fitness goals and stay connected with this advanced smartwatch featuring health monitoring and GPS.",
+    features: ["Health Monitoring", "GPS Tracking", "Water Resistant", "7-day Battery"],
+    rating: 4.6,
+    reviews: 892,
+    inStock: true,
+  },
+  {
+    id: "3",
+    name: "Ultra-Thin Laptop",
+    price: 1299.99,
+    originalPrice: 1499.99,
+    image: laptopImg,
+    category: "Computers",
+    description: "Powerful performance in an ultra-thin design. Perfect for professionals and creators who demand the best.",
+    features: ["Intel i7 Processor", "16GB RAM", "512GB SSD", "14-hour Battery"],
+    rating: 4.9,
+    reviews: 634,
+    inStock: true,
+  },
+  {
+    id: "4",
+    name: "Flagship Smartphone",
+    price: 899.99,
+    image: smartphoneImg,
+    category: "Mobile",
+    description: "Capture life's moments with our flagship smartphone featuring professional-grade cameras and all-day battery.",
+    features: ["Triple Camera System", "5G Ready", "Fast Charging", "Premium Display"],
+    rating: 4.7,
+    reviews: 2156,
+    inStock: true,
+  },
+  {
+    id: "5",
+    name: "True Wireless Earbuds",
+    price: 179.99,
+    image: earbudsImg,
+    category: "Audio",
+    description: "Premium true wireless earbuds with adaptive noise cancellation and seamless device switching.",
+    features: ["Adaptive Noise Cancellation", "Quick Pair", "Touch Controls", "Wireless Charging Case"],
+    rating: 4.5,
+    reviews: 1876,
+    inStock: true,
+  },
+  {
+    id: "6",
+    name: "Gaming Mechanical Keyboard",
+    price: 159.99,
+    originalPrice: 199.99,
+    image: keyboardImg,
+    category: "Gaming",
+    description: "Elevate your gaming experience with this premium mechanical keyboard featuring customizable RGB lighting.",
+    features: ["Mechanical Switches", "RGB Backlighting", "Programmable Keys", "Gaming Mode"],
+    rating: 4.8,
+    reviews: 743,
+    inStock: true,
+  },
+];
