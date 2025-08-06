@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to your Lovable project - Demo Retail Shop
 
 ## Project info
 
@@ -12,7 +12,7 @@ There are several ways of editing your application.
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/74eaf086-2414-4dc5-b1f3-4cc864ea3ab3) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via Lovable will be committed automatically to this repo..
 
 **Use your preferred IDE**
 
